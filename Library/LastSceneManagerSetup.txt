@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Drums/Drum_Kit_For_Your_Band_demo.unity
+  isLoaded: 1
+  isActive: 1
