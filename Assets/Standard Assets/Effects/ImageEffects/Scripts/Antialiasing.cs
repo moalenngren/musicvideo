@@ -17,7 +17,7 @@ namespace UnityStandardAssets.ImageEffects
     [ExecuteInEditMode]
     [RequireComponent(typeof (Camera))]
     [AddComponentMenu("Image Effects/Other/Antialiasing")]
-    public class Antialiasing : PostEffectsBase
+    public class Antialiasing : MonoBehaviour //PostEffectsBase
     {
         public AAMode mode = AAMode.FXAA3Console;
 
@@ -82,7 +82,7 @@ namespace UnityStandardAssets.ImageEffects
             return returnValue;
         }
 
-
+        /*
         public override bool CheckResources()
         {
             CheckSupport(false);
@@ -102,16 +102,16 @@ namespace UnityStandardAssets.ImageEffects
             }
 
             return isSupported;
-        }
+        } */
 
 
         public void OnRenderImage(RenderTexture source, RenderTexture destination)
         {
-            if (CheckResources() == false)
+            /*if (CheckResources() == false)
             {
                 Graphics.Blit(source, destination);
                 return;
-            }
+            } */
 
 			// ----------------------------------------------------------------
             // FXAA antialiasing modes

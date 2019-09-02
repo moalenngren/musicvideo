@@ -60,6 +60,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\DarkFantasy\DarkFantasyKit [Free]\Readme\Parts\Editor\ReadmeEditor.cs" />
     <Compile Include="Assets\EffectExamples\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
     <None Include="Assets\EffectExamples\Editor\PackageManagerAssembly\PackageImportList.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">

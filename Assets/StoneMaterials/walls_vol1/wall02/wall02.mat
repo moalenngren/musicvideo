@@ -66,9 +66,9 @@ Material:
     - _DstBlend: 0
     - _EmissionScaleUI: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0.49
+    - _Glossiness: 0.12
     - _GlossyReflections: 1
-    - _Metallic: 0.85
+    - _Metallic: 0.87
     - _Mode: 0
     - _OcclusionStrength: 0.68
     - _Parallax: 0.0284

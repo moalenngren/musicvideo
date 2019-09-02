@@ -5,7 +5,7 @@ namespace UnityStandardAssets.ImageEffects
 {
     [ExecuteInEditMode]
     [AddComponentMenu ("Image Effects/Color Adjustments/Color Correction (Curves, Saturation)")]
-    public class ColorCorrectionCurves : PostEffectsBase
+    public class ColorCorrectionCurves : MonoBehaviour//PostEffectsBase
 	{
         public enum ColorCorrectionMode
 		{
@@ -52,13 +52,13 @@ namespace UnityStandardAssets.ImageEffects
 
         new void Start ()
 		{
-            base.Start ();
+           // base.Start ();
             updateTexturesOnStartup = true;
         }
 
         void Awake () {	}
 
-
+        /*
         public override bool CheckResources ()
 		{
             CheckSupport (mode == ColorCorrectionMode.Advanced);
@@ -85,11 +85,11 @@ namespace UnityStandardAssets.ImageEffects
             if (!isSupported)
                 ReportAutoDisable ();
             return isSupported;
-        }
+        } */
 
         public void UpdateParameters ()
 		{
-            CheckResources(); // textures might not be created if we're tweaking UI while disabled
+            //CheckResources(); // textures might not be created if we're tweaking UI while disabled
 
             if (redChannel != null && greenChannel != null && blueChannel != null)
 			{
@@ -127,13 +127,15 @@ namespace UnityStandardAssets.ImageEffects
             UpdateParameters ();
         }
 
+
         void OnRenderImage (RenderTexture source, RenderTexture destination)
 		{
+            /*
             if (CheckResources()==false)
 			{
                 Graphics.Blit (source, destination);
                 return;
-            }
+            } */
 
             if (updateTexturesOnStartup)
 			{

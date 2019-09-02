@@ -1,8 +1,10 @@
 ﻿<Properties StartupConfiguration="{7CB60D73-0020-3D48-A8EA-E3F05E26E797}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/PyroManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Standard Assets/Effects/ImageEffects/Scripts/Antialiasing.cs">
     <Files>
       <File FileName="Assets/StrobeLight.cs" Line="22" Column="39" />
       <File FileName="Assets/PyroManager.cs" Line="42" Column="78" />
+      <File FileName="Assets/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs" Line="133" Column="15" />
+      <File FileName="Assets/Standard Assets/Effects/ImageEffects/Scripts/Antialiasing.cs" Line="114" Column="17" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
