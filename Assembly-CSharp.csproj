@@ -72,6 +72,9 @@
     <Compile Include="Assets\OldRadio\Okean\CamRotat.cs" />
     <Compile Include="Assets\PyroManager.cs" />
     <Compile Include="Assets\StrobeLight.cs" />
+    <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\CameraLogic.cs" />
+    <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\Demo.cs" />
+    <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\SimpleCharacterControl.cs" />
     <None Include="Assets\plants\dd\AlphaTest-Bumped.shader" />
     <None Include="Assets\EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
     <None Include="Assets\LightRig\Info.txt" />
